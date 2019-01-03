@@ -1,6 +1,6 @@
-# 联想Y410P安装macOS Mojave & High Sierra 使用说明
+# 联想Y430P安装macOS Mojave & High Sierra 使用说明
 
-让你的Y410P笔记本吃上黑苹果
+让你的Y430P笔记本吃上黑苹果
 
 [English](README.md) | [中文](README-CN.md)
 
