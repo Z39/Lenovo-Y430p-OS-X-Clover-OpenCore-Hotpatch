@@ -26,7 +26,7 @@ Hackintosh your Y430P Notebook
 * SIP (0ff)
 
 
-## Problem
+## Problems
 * VGA Port:This will not work at all. A workaround when projecting to VGA display is to buy and use (male)HDMI-to-(fem﻿ale)VGA adapter. 
 * Nvidia GPU (built-in): This will have to be disabled as OS X does not support Optimus technology.
 * Audio:There is a problem of pop when boot the notebook
