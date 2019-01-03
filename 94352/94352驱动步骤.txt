@@ -1,0 +1,9 @@
+94352驱动步骤
+1.kext放clover/kexts/other中
+2.aml放clover/ACPI/patched中
+
+PS说明：:
+1.10.13.6后BrcmFirmwareRepo.kext和BrcmPatchRAM2.kext蓝牙驱动最好再放一份在L/E里，不然可能会有睡眠唤醒后容易丢失蓝牙，蓝牙搜索不到之类的问题。放好后，运行一下Kext Utility修复权限和缓存。
+
+2.安装时如果遇到卡进度条不动，开V排查原因是无限刷有关蓝牙BrcmPatchRAM之类的代码的话，可先将kexts中的BrcmFirmwareRepo.kext和BrcmPatchRAM2.kext移除
+
