@@ -1,0 +1,4 @@
+替换S/L/E中的原版10.14的IO80211Family.kext，完成后用Kext Utility修复权限和缓存。或者kext直接拉入Kext Utility安装。请注意为防万一，请备份好原版IO80211Family.kext
+
+
+
