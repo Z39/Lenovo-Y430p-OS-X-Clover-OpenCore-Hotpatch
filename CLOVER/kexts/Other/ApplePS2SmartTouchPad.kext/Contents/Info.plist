@@ -511,29 +511,6 @@
 			<string>org.emlydinesh.driver.ApplePS2SmartTouchPad</string>
 			<key>Debug Level</key>
 			<integer>16</integer>
-			<key>EAPD Preferences</key>
-			<dict>
-				<key>CodecAddress</key>
-				<integer>0</integer>
-				<key>ExternalMic</key>
-				<integer>24</integer>
-				<key>HDEFAddress</key>
-				<string>1B</string>
-				<key>Headphones</key>
-				<integer>33</integer>
-				<key>HpHasEAPD</key>
-				<false/>
-				<key>InternalMic</key>
-				<integer>18</integer>
-				<key>JackSenseFix</key>
-				<false/>
-				<key>SendDelay</key>
-				<integer>1200</integer>
-				<key>Speakers</key>
-				<integer>20</integer>
-				<key>SpkHasEAPD</key>
-				<false/>
-			</dict>
 			<key>FocalTechNameMatch</key>
 			<array>
 				<string>FLT0101</string>
@@ -938,13 +915,13 @@
 				<key>FingersPress</key>
 				<dict>
 					<key>2FingersPressAction</key>
-					<integer>18</integer>
+					<integer>0</integer>
 					<key>3FingersPressAction</key>
-					<integer>19</integer>
+					<integer>0</integer>
 					<key>4FingersPressAction</key>
-					<integer>4</integer>
+					<integer>20</integer>
 					<key>5FingersPressAction</key>
-					<integer>13</integer>
+					<integer>15</integer>
 					<key>FingersPressTimeOut</key>
 					<integer>700</integer>
 				</dict>
@@ -979,7 +956,7 @@
 				<key>Others</key>
 				<dict>
 					<key>4FingersPinchAction</key>
-					<integer>4</integer>
+					<integer>0</integer>
 					<key>5FingersPinchAction</key>
 					<integer>3</integer>
 					<key>CircularRotate</key>
@@ -1319,23 +1296,23 @@
 				<key>Swiping</key>
 				<dict>
 					<key>3FingerSwipeDownAction</key>
-					<integer>1</integer>
+					<integer>9</integer>
 					<key>3FingerSwipeLeftAction</key>
 					<integer>11</integer>
 					<key>3FingerSwipeRightAction</key>
 					<integer>12</integer>
 					<key>3FingerSwipeUpAction</key>
-					<integer>3</integer>
+					<integer>19</integer>
 					<key>3FingerSwipes</key>
 					<true/>
 					<key>4FingerSwipeDownAction</key>
-					<integer>9</integer>
-					<key>4FingerSwipeLeftAction</key>
-					<integer>16</integer>
-					<key>4FingerSwipeRightAction</key>
-					<integer>15</integer>
-					<key>4FingerSwipeUpAction</key>
 					<integer>2</integer>
+					<key>4FingerSwipeLeftAction</key>
+					<integer>7</integer>
+					<key>4FingerSwipeRightAction</key>
+					<integer>6</integer>
+					<key>4FingerSwipeUpAction</key>
+					<integer>1</integer>
 					<key>4FingerSwipes</key>
 					<true/>
 					<key>EdgeSwipeBottom</key>
@@ -1347,7 +1324,7 @@
 					<key>EdgeSwipeFingers</key>
 					<integer>2</integer>
 					<key>EdgeSwipeLeft</key>
-					<integer>6</integer>
+					<integer>0</integer>
 					<key>EdgeSwipeRight</key>
 					<integer>14</integer>
 					<key>EdgeSwipeSenseHArea</key>
@@ -1359,7 +1336,7 @@
 					<key>EdgeSwipes</key>
 					<true/>
 					<key>EdgeSwipes2Ways</key>
-					<true/>
+					<false/>
 					<key>EdgeSwipesResetPointer</key>
 					<true/>
 					<key>MultiFingerSwipesDeltaX</key>
@@ -1393,13 +1370,13 @@
 					<key>1FingerTapAction</key>
 					<integer>35</integer>
 					<key>2FingersTapAction</key>
-					<integer>33</integer>
+					<integer>34</integer>
 					<key>3FingersTapAction</key>
-					<integer>25</integer>
+					<integer>33</integer>
 					<key>4FingersTapAction</key>
-					<integer>32</integer>
+					<integer>4</integer>
 					<key>5FingersTapAction</key>
-					<integer>36</integer>
+					<integer>5</integer>
 					<key>CornerTapAreaHeight</key>
 					<integer>10</integer>
 					<key>CornerTapAreaLength</key>
@@ -1411,7 +1388,7 @@
 					<key>Enable</key>
 					<true/>
 					<key>MulFingDoubleTaps</key>
-					<false/>
+					<true/>
 					<key>MulFingTapMaxDelta</key>
 					<integer>55</integer>
 					<key>MulFingTapTimeOut</key>

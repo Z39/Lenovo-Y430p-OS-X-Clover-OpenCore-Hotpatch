@@ -42,6 +42,8 @@
 		<dict>
 			<key>CFBundleIdentifier</key>
 			<string>org.emlydinesh.driver.ApplePS2Keyboard</string>
+			<key>Debug</key>
+			<true/>
 			<key>Extended Functions</key>
 			<dict>
 				<key>F13</key>
@@ -105,33 +107,29 @@
 			<key>Fn Keys Mode 2</key>
 			<dict>
 				<key>BrightnessDown</key>
-				<string>ArrowDown</string>
+				<string>F3</string>
 				<key>BrightnessUp</key>
-				<string>ArrowUp</string>
-				<key>Launchpad</key>
 				<string>F4</string>
 				<key>MediaNext</key>
-				<string>F12</string>
-				<key>MediaPlayPause</key>
 				<string>F9</string>
-				<key>MediaPrevious</key>
-				<string>F11</string>
-				<key>Misson Control</key>
+				<key>MediaPlayPause</key>
 				<string>F8</string>
+				<key>MediaPrevious</key>
+				<string>F7</string>
+				<key>Misson Control</key>
+				<string>F12</string>
 				<key>SleepDisplay</key>
 				<string>F2</string>
 				<key>SystemSleep</key>
 				<string>F1</string>
 				<key>Touchpad</key>
-				<string>F6</string>
-				<key>VideoMirror</key>
-				<string>F3</string>
+				<string>F11</string>
 				<key>VolumeDown</key>
-				<string>ArrowLeft</string>
+				<string>F5</string>
 				<key>VolumeMute</key>
 				<string>F10</string>
 				<key>VolumeUp</key>
-				<string>ArrowRight</string>
+				<string>F6</string>
 			</dict>
 			<key>Fn keys Layout</key>
 			<string>NONE</string>
@@ -162,7 +160,7 @@
 				<key>Make Num Lock into Clear</key>
 				<false/>
 				<key>Make context menu key into key</key>
-				<integer>0</integer>
+				<integer>84</integer>
 				<key>Make delete key into cmd + backspace</key>
 				<false/>
 				<key>Make right alt into key</key>
@@ -170,7 +168,7 @@
 				<key>Make right control into key</key>
 				<integer>0</integer>
 				<key>Make shift + caps into Fn key</key>
-				<true/>
+				<false/>
 				<key>Num Lock enabled at boot</key>
 				<false/>
 				<key>Swap alt and windows key</key>
