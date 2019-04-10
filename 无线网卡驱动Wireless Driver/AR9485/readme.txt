@@ -1,2 +1,0 @@
-1.install this kext to S/L/E by Kext Utility app.PS:keep attention to backup the primary IO80211Family.kext
-2.put IOath3kfrmwr.kext into clover-kexts-other,or install this kext to S/L/E by Kext Utility app

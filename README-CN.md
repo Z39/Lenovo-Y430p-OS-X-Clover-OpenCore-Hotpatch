@@ -4,10 +4,25 @@
 
 [English](README.md) | [中文](README-CN.md)
 
+
+| ------------ | :---------------------------------------------: |
+| Computer     |           Lenovo IdeaPad Y430P Laptop           |
+| CPU          |          Intel Haswell Core i5-4210m@ 2.60G/Intel Haswell Core i7-4710MQ @ 2.50G           |
+| Chipset      |           Lenovo (Intel HM86 Chipset)           |
+| Graphics     |          HD4600 (using Intel GPU only)          |
+| Audio        | ALC282 @ Intel Lynx Point High Definition Audio |
+| Ethernet     |        Atheros QCA8171 Gigabit Ethernet         |
+| WiFi         |          Broadcom BCM94352HMB 802.11AC          |
+| Bluetooth    |                 BCM20702 (4.0)                  |
+| BIOS Version |                      3.66                       |
+
 ## 支持列表
 
 * 支持10.13.x 和 10.14。
 * ACPI补丁修复使用hotpatch方式，相关文件位于 `/CLOVER/ACPI/patched` 。
+* 远景论坛ID：39军小兵张 [Link](http://i.pcbeta.com/space-uid-4472739.html)
+* 安装视频教程及效果展示：[Link](https://space.bilibili.com/414418614/video)
+* 有问题可加QQ群：686848381 验证答案：ALC282
 
 ### 显卡
 *屏蔽独显，HD4600正常，QE/CI OK,有水波纹效果，AGPM（显卡变频）正常,修复HD4600开机第二阶段花屏、开机后鼠标卡顿、播放视频卡死机等显卡问题。PS:小Y存在高低分屏的区别，高分屏容易花屏，最好注入自己的EDID。
@@ -79,6 +94,29 @@
 * 1.声卡表现不完美，按照教程根据codec正确节点仿冒，开机进度条有爆音，该问题目前已确认只存在于Y410P/Y430P，Y510P的正常。
 * 2.关于重启不断电问题，已确认存在Y410P/Y510P,Y430P无问题。Y410P/Y510P使用最新附件，BIOS设置Boot uefi only模式可解决重启不断电问题，但会有开机一闪花屏的问题和睡眠唤醒后再使用重启的话依然重启不断电。具体请看附件内附说明。
 
+## kexts等更新链接
+
+- Clover EFI bootloader [Link](https://github.com/Dids/clover-builder/releases)
+
+- FakeSMC [Link](https://bitbucket.org/RehabMan/os-x-fakesmc-kozlek/downloads/)
+
+- VoodooPS2Controller [Link](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/)
+
+- ACPIBatteryManager [Link](https://bitbucket.org/RehabMan/os-x-acpi-battery-driver/)
+
+- BrcmPatchRAM [Link](https://bitbucket.org/RehabMan/os-x-brcmpatchram/downloads/)
+
+- Lilu [Link](https://github.com/acidanthera/Lilu)
+
+- AirportBrcmFixup [Link](https://github.com/acidanthera/AirportBrcmFixup)
+
+- WhateverGreen [Link](https://github.com/acidanthera/WhateverGreen)
+
+- AppleALC [Link](https://github.com/acidanthera/AppleALC)
+
+- AtherosE2200Ethernet [Link](https://github.com/Mieze/AtherosE2200Ethernet)
+
+- Enable macOS HiDPI [Link](https://github.com/xzhih/one-key-hidpi)
 
 ## 鸣谢
 感谢intruder16、panybbib等大神
