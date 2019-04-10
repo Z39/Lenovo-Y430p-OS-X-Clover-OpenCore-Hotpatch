@@ -5,16 +5,15 @@ Hackintosh your Y430P Notebook
 [English](README.md) | [中文](README-CN.md)
 
 
-| ------------ | :---------------------------------------------: |
-| Computer     |           Lenovo IdeaPad Y430P Laptop           |
-| CPU          |          Intel Haswell Core i5-4210m@ 2.60G/Intel Haswell Core i7-4710MQ @ 2.50G           |
-| Chipset      |           Lenovo (Intel HM86 Chipset)           |
-| Graphics     |          HD4600 (using Intel GPU only)          |
-| Audio        | ALC282 @ Intel Lynx Point High Definition Audio |
-| Ethernet     |        Atheros QCA8171 Gigabit Ethernet         |
-| WiFi         |          Broadcom BCM94352HMB 802.11AC          |
-| Bluetooth    |                 BCM20702 (4.0)                  |
-| BIOS Version |                      3.66                       |
+* |Computer      Lenovo IdeaPad Y430P Laptop     
+* | CPU              Intel Haswell Core i5-4210m@ 2.60G/Intel Haswell Core i7-4710MQ @ 2.50G
+* | Chipset          Lenovo (Intel HM86 Chipset)                                                                           
+* | Graphics        HD4600 (using Intel GPU only)                                                                     
+* | Audio             ALC282 @ Intel Lynx Point High Definition Audio 
+* | Ethernet        Atheros QCA8171 Gigabit Ethernet     
+* | WiFi               Broadcom BCM94352HMB 802.11AC     
+* | Bluetooth       BCM20702 (4.0)              
+* | BIOS Version  3.66           
 
 ## Features
 
