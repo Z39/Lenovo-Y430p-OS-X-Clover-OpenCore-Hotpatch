@@ -5,15 +5,15 @@
 [English](README.md) | [中文](README-CN.md)
 
 
-* |Computer      Lenovo IdeaPad Y430P Laptop     
-* | CPU              Intel Haswell Core i5-4210m@ 2.60G/Intel Haswell Core i7-4710MQ @ 2.50G
-* | Chipset          Lenovo (Intel HM86 Chipset)                                                                           
-* | Graphics        HD4600 (using Intel GPU only)                                                                     
-* | Audio             ALC282 @ Intel Lynx Point High Definition Audio 
-* | Ethernet        Atheros QCA8171 Gigabit Ethernet     
-* | WiFi               Broadcom BCM94352HMB 802.11AC     
-* | Bluetooth       BCM20702 (4.0)              
-* | BIOS Version  3.66                   
+* Computer：Lenovo IdeaPad Y430P Laptop     
+* CPU ：ntel Haswell Core i5-4210m@ 2.60G/Intel Haswell Core i7-4710MQ @ 2.50G
+* Chipset ：Lenovo (Intel HM86 Chipset)                                                                           
+* Graphics：HD4600 (using Intel GPU only)                                                                     
+* Audio：ALC282 @ Intel Lynx Point High Definition Audio 
+* Ethernet：Atheros QCA8171 Gigabit Ethernet     
+* WiFi ：Broadcom BCM94352HMB 802.11AC (原装无解，更换)      
+* Bluetooth：BCM20702 (4.0)  (原装无解，更换)              
+* BIOS Version：3.66                   
 
 ## 支持列表
 
@@ -44,9 +44,11 @@
 ### 键盘
 * VoodooPS2Controller或ApplePS2SmartTouchPad输入正常，附件默认使用ApplePS2SmartTouchPad，兼容Synaptics和Elan。
 * VoodooPS2Controller默认注入调换control和command键，符合windows ctrl快键键使用习惯。请仔细确认自己的键控类型，Synaptics触控版的可使用VoodooPS2Controller.kext或者ApplePS2SmartTouchPad.kext。Elan触控版可使用ApplePS2SmartTouchPad.kext或者ApplePS2ElanTouchpad.kext。只能使用一个键控kext驱动，不要混用,否则驱动冲突会导致键盘失灵。clover默认放入VoodooPS2Controller.kext，Elan触控版的请删除并放入附件中提供的对应kext。
+* 已更新自定义FN快捷键和触控板手势
 
 ### 触控板
 *手势嘛，实测支持三指，当然是没白苹果那么厉害，（在键盘-快捷键中找到想要实现的功能，在修改快捷键时直接三指滑动你想要的方向就可以了。比如我们要模拟白苹果的三指向上扫调出调度中心）。键控类型同上一条。
+* 已更新自定义FN快捷键和触控板手势
 
 ### 有线网卡
 * OK
