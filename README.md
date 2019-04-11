@@ -6,7 +6,7 @@ Hackintosh your Y430P Notebook
 
 
 * Computer：Lenovo IdeaPad Y430P Laptop     
-* CPU ：ntel Haswell Core i5-4210m@ 2.60G/Intel Haswell Core i7-4710MQ @ 2.50G
+* CPU ：Intel Core i5-4210M@ 2.60G/Intel Haswell Core i7-4710MQ @ 2.50G (Haswell)
 * Chipset ：Lenovo (Intel HM86 Chipset)                                                                           
 * Graphics：HD4600 (using Intel GPU only)                                                                     
 * Audio：ALC282 @ Intel Lynx Point High Definition Audio 
