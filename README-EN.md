@@ -17,7 +17,12 @@ Hackintosh your Y430P Notebook
 ## Features
 
 * Support 10.13.x and 10.14.x
-* ACPI fixes use hotpatch; related files are located in `/CLOVER/ACPI/patched`.
+* ACPI fixes use hotpatch; related files are located in `/CLOVER/ACPI/patched`.## Releases
+
+## Releases
+The latest version can be downloaded on the[release page](https://github.com/Z39/Y430p-OS-X-Clover-Hotpatch/releases) 
+
+
 
 ## What Works
 * Graphics with full acceleration QE/CI (using Intel GPU only) + HDMI Video
