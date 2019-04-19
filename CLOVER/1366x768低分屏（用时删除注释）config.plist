@@ -25,7 +25,7 @@
 				<key>FixLAN</key>
 				<true/>
 				<key>FixRTC</key>
-				<false/>
+				<true/>
 				<key>FixTMR</key>
 				<false/>
 				<key>FixUSB</key>
@@ -131,20 +131,6 @@
 					<key>Replace</key>
 					<data>
 					CFhQUlc=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change LPC to LPCB, optional SSDT-LPC.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					TFBDXw==
-					</data>
-					<key>Replace</key>
-					<data>
-					TFBDQg==
 					</data>
 				</dict>
 				<dict>
@@ -275,16 +261,58 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>change HDAS to HDEF, optionally pair with SSDT-HDEF.aml</string>
+					<string>change Method(ESEL,0,S) to ESEZ, pair with SSDT-XHC-ESEL3in1.aml</string>
 					<key>Disabled</key>
 					<false/>
 					<key>Find</key>
 					<data>
-					SERBUw==
+					RVNFTAg=
 					</data>
 					<key>Replace</key>
 					<data>
-					SERFRg==
+					RVNFWgg=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(XSEL,0,S) to XSEZ, pair with SSDT-XHC-ESEL3in1.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WFNFTAg=
+					</data>
+					<key>Replace</key>
+					<data>
+					WFNFWgg=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(XWAK,0,S) to ZWAK, pair with SSDT-XHC-ESEL3in1.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					WFdBSwg=
+					</data>
+					<key>Replace</key>
+					<data>
+					WldBSwg=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					X1BUUwk=
+					</data>
+					<key>Replace</key>
+					<data>
+					WlBUUwk=
 					</data>
 				</dict>
 			</array>
@@ -343,121 +371,6 @@
 			<false/>
 			<key>ResetHDA</key>
 			<false/>
-		</dict>
-		<key>Properties</key>
-		<dict>
-			<key>PciRoot(0)/Pci(0x02,0)</key>
-			<dict>
-				<key>## patch0</key>
-				<string>开机鼠标卡顿</string>
-				<key>## patch1</key>
-				<string>Enable internal display after sleep for 0x0a2e000a, 0x0a26000a</string>
-				<key>##### 开启128M DVMT-prealloc，外接4k显示器需要，但是内置屏幕会狂闪</key>
-				<string>0</string>
-				<key>#####framebuffer-fbmem</key>
-				<data>
-				AAAAAg==
-				</data>
-				<key>#####framebuffer-stolenmem</key>
-				<data>
-				AAAACA==
-				</data>
-				<key>####framebuffer-fbmem</key>
-				<data>
-				AAAAAw==
-				</data>
-				<key>####framebuffer-stolenmem</key>
-				<data>
-				AAAABg==
-				</data>
-				<key>###framebuffer-fbmem</key>
-				<data>
-				AACQAA==
-				</data>
-				<key>###framebuffer-stolenmem</key>
-				<data>
-				AABgAA==
-				</data>
-				<key>#hda-gfx</key>
-				<string>onboard-1</string>
-				<key>AAPL,ig-platform-id</key>
-				<data>
-				BgAmCg==
-				</data>
-				<key>AAPL00,override-no-edid</key>
-				<data>
-				AP///////wAGrz0UAAAAAAAXAQSVHxF4Arv1lFVUkCcj
-				UFQAAAABAQEBAQEBAQEBAQEBAQEBsDaASnE4NEAwIDUA
-				Na0QAAAYAAAADwAAAAAAAAAAAAAAAAAgAAAA/gBBVU8K
-				ICAgICAgICAgAAAA/gBCMTQwSFROMDEuNCAKAOY=
-				</data>
-				<key>device-id</key>
-				<data>
-				EgQAAA==
-				</data>
-				<key>enable-hdmi20</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-con1-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-con1-flags</key>
-				<data>
-				BgAAAA==
-				</data>
-				<key>framebuffer-con1-pipe</key>
-				<data>
-				EgAAAA==
-				</data>
-				<key>framebuffer-con1-type</key>
-				<data>
-				AAgAAA==
-				</data>
-				<key>framebuffer-cursormem</key>
-				<data>
-				AACQAA==
-				</data>
-				<key>framebuffer-patch-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-patch0-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-patch0-find</key>
-				<data>
-				AgQJAAAEAACHAAAA
-				</data>
-				<key>framebuffer-patch0-replace</key>
-				<data>
-				/wAJAAAEAACHAAAA
-				</data>
-				<key>framebuffer-patch1-enable</key>
-				<integer>1</integer>
-				<key>framebuffer-patch1-find</key>
-				<data>
-				AQAAAEAAAAAeAgAABQUJAQ==
-				</data>
-				<key>framebuffer-patch1-replace</key>
-				<data>
-				AQAAAEAAAAAfAgAABQUJAQ==
-				</data>
-				<key>framebuffer-patch2-enable</key>
-				<data>
-				AQAAAA==
-				</data>
-				<key>framebuffer-patch2-find</key>
-				<data>
-				AwAiDQADAwMAAAACAAAwAQAAAAAAAABgmRQ=
-				</data>
-				<key>framebuffer-patch2-replace</key>
-				<data>
-				AwAiDQADAwMAAAAIAAAAAgAAAAAAAACAmRQ=
-				</data>
-				<key>framebuffer-unifiedmem</key>
-				<data>
-				AAAAgA==
-				</data>
-				<key>model</key>
-				<string>Intel HD Graphics 4600</string>
-			</dict>
 		</dict>
 		<key>USB</key>
 		<dict>
@@ -529,7 +442,7 @@
 		<key>AppleRTC</key>
 		<true/>
 		<key>KernelLapic</key>
-		<false/>
+		<true/>
 		<key>KernelPm</key>
 		<true/>
 		<key>KextsToPatch</key>
@@ -550,24 +463,6 @@
 				<key>Replace</key>
 				<data>
 				SW50ZXJuYWw=
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>AppleRTC_patch</string>
-				<key>Disabled</key>
-				<false/>
-				<key>Find</key>
-				<data>
-				dS4Ptg==
-				</data>
-				<key>InfoPlistPatch</key>
-				<false/>
-				<key>Name</key>
-				<string>AppleRTC</string>
-				<key>Replace</key>
-				<data>
-				6y4Ptg==
 				</data>
 			</dict>
 			<dict>
