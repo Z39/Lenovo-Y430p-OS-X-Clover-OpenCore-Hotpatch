@@ -126,8 +126,8 @@ DefinitionBlock ("", "SSDT", 2, "Y430P", "FN", 0x00000000)
                     // The following 12 items map fkeys to fkeys
                         "3b=e05f",//F1=System Sleep
                         "3c=e05e",//F2=System Power / Keyboard Power
-                        "3d=e005",//F5=brightness down
-                        "3e=e006",//F6=brightness up
+                        "3d=e005",//F3=brightness down
+                        "3e=e006",//F4=brightness up
                         "3f=e02e",//F5=Volume Down
                         "40=e030",//F6=Volume Up
                         "41=e010",//F7=Scan Previous Track

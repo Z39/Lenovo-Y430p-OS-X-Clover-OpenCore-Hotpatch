@@ -24,8 +24,7 @@ DefinitionBlock("", "SSDT", 2, "Y430P", "_PNLF", 0)
     External(RMCF.FBTP, IntObj)
 
     External(_SB.PCI0.IGPU, DeviceObj)
-    External(_SB.PCI0.PEG0.PEGP._OFF, MethodObj)
-    External(_SB.PCI0.PEGP.DGFX._OFF, MethodObj)
+ 
     Scope(_SB.PCI0.IGPU)
     {
         OperationRegion(RMP3, PCI_Config, 0, 0x14)
@@ -252,9 +251,7 @@ DefinitionBlock("", "SSDT", 2, "Y430P", "_PNLF", 0)
             ElseIf (Local2 == COFFEELAKE_PWMMAX) { _UID = 19 }
             Else { _UID = 99 }
             
-            // disable discrete graphics (Nvidia/Radeon) if it is present
-            If (CondRefOf(\_SB.PCI0.PEG0.PEGP._OFF)) { \_SB.PCI0.PEG0.PEGP._OFF() }
-            If (CondRefOf(\_SB.PCI0.PEGP.DGFX._OFF)) { \_SB.PCI0.PEGP.DGFX._OFF() }
+         
         }
     }
 #ifndef NO_DEFINITIONBLOCK
