@@ -343,8 +343,6 @@
 	</dict>
 	<key>Boot</key>
 	<dict>
-		<key>Arguments</key>
-		<string>-lilubetaall</string>
 		<key>Debug</key>
 		<false/>
 		<key>DefaultVolume</key>
