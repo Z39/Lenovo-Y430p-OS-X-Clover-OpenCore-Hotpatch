@@ -26,6 +26,14 @@
 ## 发布
 
 最后发布的版本前往 [release page](https://github.com/Z39/Y430p-OS-X-Clover-Hotpatch/releases) 下载即可。
+如果Github网络下载不太好，新增[蓝奏云](https://www.lanzous.com/b616223/#8shm) 
+## 关于打赏
+
+如果您认可我的工作，请通过打赏支持我后续的更新
+
+|                                 微信                                           |                         支付宝                                       |
+| ---------------------------------------------------------- | ---------------------------------------------------- |
+| ![微信打赏](微信打赏.png)                                         | ![支付宝打赏](支付宝打赏.png)                           |
 
 ### 显卡
 * 屏蔽独显，HD4600正常，QE/CI OK,有水波纹效果，AGPM（显卡变频）正常,修复HD4600开机第二阶段花屏、开机后鼠标卡顿、播放视频卡死机等显卡问题。PS:小Y存在高低分屏的区别，高分屏容易花屏，最好注入自己的EDID。
@@ -122,7 +130,9 @@
 - AtherosE2200Ethernet [Link](https://github.com/Mieze/AtherosE2200Ethernet)
 
 - Enable macOS HiDPI [Link](https://github.com/xzhih/one-key-hidpi)
+## 更新日志
 
+详细更新日志请看 [更新日志中文版](Changelog_CN.md)。
 ## 鸣谢
 感谢intruder16、panybbib等大神
 
