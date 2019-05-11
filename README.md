@@ -45,7 +45,8 @@
 * （小太阳ok，能保存亮度）（配合VoodooPS2Controller或ApplePS2SmartTouchPad FN+上下箭头键调节）采用R大新方法：SSDT-PNLF.aml配合AppleBacklightFixup.kext调节亮度表，新WhateverGreen.kext已经有AppleBacklightFixup.kext的功能，故可不需要AppleBacklightFixup.kext。
 
 ### 声卡
-* 根据小Y codec信息制作的ALC282仿冒声卡（Clover已默认放入AppleALC方法驱动，不再需要其他操作，Clover会自动驱动声卡），音质不错无杂音，扬声器耳机等正常有声，插拔自动切换正常，内外置麦克风ok，睡眠唤醒后有声音，缺点嘛就是开机进度条时有些正常爆音。另外，HD4600外接HDMI声音输出已开启。ps:已提交官方applealc,Y410P注入ID为41，Y430P为43，Y510P为51,是不是很好记，当然这个注入ID不用管，附件已默认注入。
+*  根据小Ycodec信息制作的ALC282仿冒声卡AppleAlc,音质不错无杂音，扬声器耳机等正常有声，插拔自动切换正常，内外置麦克风ok，睡眠唤醒后有声音，缺点嘛就是开机进度条时有些正常爆音。另外，HD4600外接HDMI声音输出已开启。ps:已提交官方applealc,Y410P注入ID为41，Y430P为43，Y510P为51,是不是很好记，当然这个注入ID不用管，附件已默认注入。
+*  还有一种是使用定制的万能声卡。此版开机无爆音，扬声器耳机等正常有声，插拔自动切换正常，音质不错，音量增益明显，缺点嘛就是HDMI声音输出一定要睡眠过一次再唤醒才会有声，另外就是外置麦克不工作（这个不影响啥的）。
 
 ### CPU
 * 完美变频，一般8个变频档位。

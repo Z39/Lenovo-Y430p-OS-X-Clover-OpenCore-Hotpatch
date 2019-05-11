@@ -370,6 +370,114 @@
 			<key>ResetHDA</key>
 			<false/>
 		</dict>
+		<key>Properties</key>
+		<dict>
+			<key>PciRoot(0)/Pci(0x02,0)</key>
+			<dict>
+				<key>## patch0</key>
+				<string>开机鼠标卡顿</string>
+				<key>## patch1</key>
+				<string>Enable internal display after sleep for 0x0a2e000a, 0x0a26000a</string>
+				<key>##### 开启128M DVMT-prealloc，外接4k显示器需要，但是内置屏幕会狂闪</key>
+				<string>0</string>
+				<key>#####framebuffer-fbmem</key>
+				<data>
+				AAAAAg==
+				</data>
+				<key>#####framebuffer-stolenmem</key>
+				<data>
+				AAAACA==
+				</data>
+				<key>####framebuffer-fbmem</key>
+				<data>
+				AAAAAw==
+				</data>
+				<key>####framebuffer-stolenmem</key>
+				<data>
+				AAAABg==
+				</data>
+				<key>###framebuffer-fbmem</key>
+				<data>
+				AACQAA==
+				</data>
+				<key>###framebuffer-stolenmem</key>
+				<data>
+				AABgAA==
+				</data>
+				<key>#hda-gfx</key>
+				<string>onboard-1</string>
+				<key>AAPL,ig-platform-id</key>
+				<data>
+				BgAmCg==
+				</data>
+				<key>device-id</key>
+				<data>
+				EgQAAA==
+				</data>
+				<key>enable-hdmi20</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-con1-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-con1-flags</key>
+				<data>
+				BgAAAA==
+				</data>
+				<key>framebuffer-con1-pipe</key>
+				<data>
+				EgAAAA==
+				</data>
+				<key>framebuffer-con1-type</key>
+				<data>
+				AAgAAA==
+				</data>
+				<key>framebuffer-cursormem</key>
+				<data>
+				AACQAA==
+				</data>
+				<key>framebuffer-patch-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-patch0-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-patch0-find</key>
+				<data>
+				AgQJAAAEAACHAAAA
+				</data>
+				<key>framebuffer-patch0-replace</key>
+				<data>
+				/wAJAAAEAACHAAAA
+				</data>
+				<key>framebuffer-patch1-enable</key>
+				<integer>1</integer>
+				<key>framebuffer-patch1-find</key>
+				<data>
+				AQAAAEAAAAAeAgAABQUJAQ==
+				</data>
+				<key>framebuffer-patch1-replace</key>
+				<data>
+				AQAAAEAAAAAfAgAABQUJAQ==
+				</data>
+				<key>framebuffer-patch2-enable</key>
+				<data>
+				AQAAAA==
+				</data>
+				<key>framebuffer-patch2-find</key>
+				<data>
+				AwAiDQADAwMAAAACAAAwAQAAAAAAAABgmRQ=
+				</data>
+				<key>framebuffer-patch2-replace</key>
+				<data>
+				AwAiDQADAwMAAAAIAAAAAgAAAAAAAACAmRQ=
+				</data>
+				<key>framebuffer-unifiedmem</key>
+				<data>
+				AAAAgA==
+				</data>
+				<key>model</key>
+				<string>Intel HD Graphics 4600</string>
+			</dict>
+		</dict>
 		<key>USB</key>
 		<dict>
 			<key>AddClockID</key>

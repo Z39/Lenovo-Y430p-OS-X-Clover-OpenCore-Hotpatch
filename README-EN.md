@@ -26,7 +26,7 @@ The latest version can be downloaded on the[release page](https://github.com/Z39
 
 ## What Works
 * Graphics with full acceleration QE/CI (using Intel GPU only) + HDMI Video
-* Audio using AppleALC
+* Audio using AppleALC or VoodooHDA.kext(if you use VoodooHDA,pls remember let your Laptop sleep once and then wake it,HDMI sound output will work properly)
 * Ethernet (LAN)
 * WiFi / Bluetooth (after replacing the Intel card (incompatible) with a compatible one like Broadcom BCM4352 for example
 * Sleep (also sleep on Lid Close)
