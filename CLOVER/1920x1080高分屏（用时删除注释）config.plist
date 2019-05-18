@@ -37,20 +37,6 @@
 			<array>
 				<dict>
 					<key>Comment</key>
-					<string>Change (_WAK,1,S) to ZWAK, SSDT-PTSWAK.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1dBSwk=
-					</data>
-					<key>Replace</key>
-					<data>
-					WldBSwk=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>Change (GPRW,2,N) to XPRW, SSDT-PRW.aml</string>
 					<key>Disabled</key>
 					<false/>
@@ -61,20 +47,6 @@
 					<key>Replace</key>
 					<data>
 					WFBSVwI=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>Change WMMX to WMMZ (remove WMMX method)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					V01NWAM=
-					</data>
-					<key>Replace</key>
-					<data>
-					V01NWgM=
 					</data>
 				</dict>
 				<dict>
@@ -121,20 +93,6 @@
 				</dict>
 				<dict>
 					<key>Comment</key>
-					<string>Change LID0._PRW to LID0.XPRW</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					CF9QUlc=
-					</data>
-					<key>Replace</key>
-					<data>
-					CFhQUlc=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
 					<string>change Method(_Q11,0,N) to XQ11,optionally pair with SSDT-FN.aml</string>
 					<key>Disabled</key>
 					<false/>
@@ -173,20 +131,6 @@
 					<key>Replace</key>
 					<data>
 					WERTTQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change OSID to XSID (to avoid match against _OSI XOSI patch)</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					T1NJRA==
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNJRA==
 					</data>
 				</dict>
 				<dict>
@@ -257,62 +201,6 @@
 					<key>Replace</key>
 					<data>
 					SERBVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(ESEL,0,S) to ESEZ, pair with SSDT-XHC-ESEL3in1.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					RVNFTAg=
-					</data>
-					<key>Replace</key>
-					<data>
-					RVNFWgg=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(XSEL,0,S) to XSEZ, pair with SSDT-XHC-ESEL3in1.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WFNFTAg=
-					</data>
-					<key>Replace</key>
-					<data>
-					WFNFWgg=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(XWAK,0,S) to ZWAK, pair with SSDT-XHC-ESEL3in1.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					WFdBSwg=
-					</data>
-					<key>Replace</key>
-					<data>
-					WldBSwg=
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change Method(_PTS,1,S) to ZPTS, pair with SSDT-PTSWAK.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					X1BUUwk=
-					</data>
-					<key>Replace</key>
-					<data>
-					WlBUUwk=
 					</data>
 				</dict>
 			</array>
