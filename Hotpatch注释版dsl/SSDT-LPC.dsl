@@ -15,10 +15,6 @@ DefinitionBlock("", "SSDT", 2, "Y430P", "LPC", 0)
             Return (Package () 
             { 
                 "compatible", "pci8086,8c4b",
-                "AAPL,slot-name", "Built In",
-                "device_type", Buffer () {"LPC Controller"},
-                "name", Buffer () {"Intel HM86 Chipset - LPC Interface Controller"},
-                "model", Buffer () {"Intel HM86 Chipset - LPC Interface Controller"}
             })
         }
     }

@@ -12,10 +12,7 @@ DefinitionBlock("", "SSDT", 2, "Y430P", "XHC", 0)
             If (!Arg2) { Return (Buffer() { 0x03 } ) }
             Local0 = Package()
             {
-                "AAPL,slot-name", "Built In",
-                "device_type", Buffer () {"XHCI Controller"},
-                "name", Buffer () {"Intel Lynx Point PCH - USB 3.0 XHCI Controller"},
-                "model", Buffer () {"Intel Lynx Point PCH - USB 3.0 XHCI Controller"},
+                
                 "RM,pr2-force", Buffer() { 0, 0, 0, 0 },
                 "subsystem-id", Buffer() { 0x70, 0x72, 0x00, 0x00 },
                 "subsystem-vendor-id", Buffer() { 0x86, 0x80, 0x00, 0x00 },

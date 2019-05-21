@@ -23,7 +23,7 @@
 				<key>FixIPIC</key>
 				<true/>
 				<key>FixLAN</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
 				<true/>
 				<key>FixTMR</key>
@@ -187,20 +187,6 @@
 					<key>Replace</key>
 					<data>
 					SUdQVQ==
-					</data>
-				</dict>
-				<dict>
-					<key>Comment</key>
-					<string>change B0D3 to HDAU, optionally pair with SSDT-HDAU.aml</string>
-					<key>Disabled</key>
-					<false/>
-					<key>Find</key>
-					<data>
-					QjBEMw==
-					</data>
-					<key>Replace</key>
-					<data>
-					SERBVQ==
 					</data>
 				</dict>
 			</array>

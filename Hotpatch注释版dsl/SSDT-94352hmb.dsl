@@ -24,17 +24,6 @@ DefinitionBlock ("", "SSDT", 2, "Y430P", "WIFI", 0x00003000)
        }    
     }
     
-    Method (_SB.PCI0.RP05.PXSX._DSM, 4, NotSerialized)  // _DSM: Device-Specific Method
-    {
-        If (!Arg2) { Return (Buffer() { 0x03 } ) }
-        Return (Package ()
-        {
-            "AAPL,slot-name", "Built In", 
-            "device_type", Buffer () {"Airport Extreme"}, 
-            "name", "Broadcom BCM94352HMB 802.11ac Wireless Network Adapter", 
-            "model", Buffer () {"Broadcom BCM94352HMB 802.11ac Wireless Network Adapter"}
-        })
-    }
-}
+   }
 
 //EOF

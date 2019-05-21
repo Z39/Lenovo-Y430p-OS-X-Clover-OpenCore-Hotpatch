@@ -23,7 +23,7 @@
 				<key>FixIPIC</key>
 				<true/>
 				<key>FixLAN</key>
-				<true/>
+				<false/>
 				<key>FixRTC</key>
 				<true/>
 				<key>FixTMR</key>
