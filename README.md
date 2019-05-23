@@ -14,7 +14,7 @@
 * WiFi ：Broadcom BCM94352HMB 802.11AC (原装无解，更换)      
 * Bluetooth：BCM20702 (4.0)  (原装无解，更换)              
 * BIOS Version：3.66                   
-
+ ![截图](Screen.JPG)   
 ## 支持列表
 
 * 支持10.13.x 和 10.14。

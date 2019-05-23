@@ -13,7 +13,7 @@ Hackintosh your Y430P Notebook
 * WiFi ：Broadcom BCM94352HMB 802.11AC(after replacing the original card)    
 * Bluetooth：BCM20702 (4.0) (after replacing the original card)                
 * BIOS Version：3.66      
-
+![Screen](Screen.JPG)  
 ## Features
 
 * Support 10.13.x and 10.14.x
