@@ -1,0 +1,103 @@
+键控驱动快捷键及手势说明：
+Synaptics与elan的都统一使用ApplePS2SmartTouchPad.kext，Synaptics的如果有问题，可换用VoodooPS2Controller.kext
+
+
+1.VoodooPS2Controller自定义快捷键和手势说明（修改映射都在SSDT-FN.aml）：
+
+1.1.自定义快捷键：
+Ctrl -Win Ctrl(映射) Ctrl=Win Ctrl
+F1 - 睡眠（映射） F1 - sleep
+F2 - 电源键（映射）F2 - power button
+F3 - 降低屏幕亮度（映射）F3 - brightness down
+F4 - 增加屏幕亮度（映射）F4 - brightness up
+F5 - 减小音量（映射）F5 - volume down
+F6 - 增加音量（映射）F6 - volume up
+F7 - 上一首（映射） F7 - Previous
+F8 - 播放/暂停（映射）F8 - Play/Pause
+F9 - 下一首（映射）F9 - next 
+F10 - 静音（映射）F10 - mute
+F11 - 桌面（默认）F11 - desktop
+F12 - 仪表盘（默认）F12 - dashboard 
+PriSc - 截屏（只映射为F13,需手动再在键盘快捷键设置一下）PriSc - screen capture (only map to F13, you need to manually set the keyboard shortcuts again)
+
+Home - 跳到开头（默认）Home - Skip to the beginning
+End  - 跳到最后（默认）End - jump to the end
+Pgup - 上拉（默认）Pgup - pull up
+PgDn - 下移（默认）PgDn - move down
+
+FN+F1  - 睡眠（默认）FN+F1 - sleep
+FN+F2  - 关闭屏幕（默认）FN+F2 - turn off the screen
+FN+F6  - 禁止/开启触控板（默认）FN+F6 - disable/turn on the touchpad
+FN+F12 - 切换上一程序（默认）FN+F12 - switch to the previous program
+FN+箭头上 -增加屏幕亮度（Q12）FN+ arrow up - brightness up
+FN+箭头下 -降低屏幕亮度度（Q11）FN+ arrow down - brightness down
+FN+箭头左 -减小音量（默认） FN+ arrow left -  volume down
+FN+箭头右 -增加音量（默认） FN+ arrow right - volume up
+FN+HOME - 增加屏幕亮度（默认）FN+HOME - brightness up
+FN+PGUP - 降低屏幕亮度度（默认）FN+PGUP- brightness down
+
+
+1.2.触控板多指手势：
+
+双指向下滚动  - 同鼠标滚轮（默认）Double fingers scrolling down - same with mouse scrolling down
+三指向上  - Misson control调度中心（映射）Three fingers up-Misson control
+三指向下  - 最小化（映射）Three fingers down - minimized
+三指向左  - 后退（映射）Three fingers left - back 
+三指向右  - 前进（映射）Three fingers right - forward
+
+2.ApplePS2SmartTouchPad自定义键盘快捷键和手势说明（修改在kext）
+
+2.1.自定义键盘快捷键
+功能键（相当于Fn）：上下文菜单键（Context menu key，位于键盘右侧Alt键与Ctrl键之间）Function key=Context menu key
+
+功能键+F1 - 睡眠（映射）Function key +F1 - sleep
+功能键+F2 - 关闭屏幕（映射）Function key + F2 - close screen
+功能键+F3 - 降低屏幕亮度（映射）Function key +F3 rightness down
+功能键+F4 - 增加屏幕亮度（映射）Function key +F4 brightness up
+功能键+F5 - 减小音量（映射）Function key +F5  volume down
+功能键+F6 - 增加音量（映射）Function key +F5  volume up
+功能键+F7 - 上一首（映射）Function key +F7 - previous
+功能键+F8 - 播放/暂停（映射）Function key +F8 - play / pause
+功能键+F9 - 下一首（映射）Function key +F9 - next
+功能键+F10 - 静音（映射）Function key +F10 - mute
+功能键+F11 - 禁止/开启触控板（映射）Function key +F11 - disable/turn on the touchpad
+功能键+F12 - 调度中心（映射）Function key +F12 Misson control
+PriSc - 截屏（默认，无需再手动设置）PriSc-PriSc
+
+FN+F1  - 睡眠（默认）FN+F1 - sleep
+FN+F2  - 关闭屏幕（默认）FN+F2 - turn off the screen
+FN+F6  - 禁止/开启触控板（默认）FN+F6 - disable/turn on the touchpad
+FN+F11 - 应用切换（默认）FN+F11 - Application Switch
+FN+F12 - 不知道啥功能，只是有时候能按出来（默认）
+FN+HOME - 右键（默认）
+FN+箭头上 -增加屏幕亮度（Q12）FN+ arrow up - brightness up
+FN+箭头下 -降低屏幕亮度度（Q11）FN+ arrow down - brightness down
+FN+箭头左 -减小音量（默认） FN+ arrow left -  volume down
+FN+箭头右 -增加音量（默认） FN+ arrow right - volume up
+
+
+2.2.触控板多指手势：
+
+双指向下滚动  - 同鼠标滚轮（默认）Double fingers scrolling down - same with mouse scrolling down
+双指双点 - 放大缩小（默认）Two-finger double point - zoom in and out
+双指分开 - 放大（默认）PS:需手势放开才有效果，不像win一样实时放大效果。Splitting between two fingers - Zooming in
+双指捏合 - 缩小（默认）PS:需手势放开才有效果，不像win一样实时放大效果。Two-finger pinch - Zoom out
+双指由右边缘向左   - 通知中心（映射）（需在键盘快捷键那再手动映射，本身快捷键为无，点修改，然后作对应手势，如果识别有问题，可按crtl+alt+shift+N）Two fingers from the right edge to the left - the notification center 
+
+双指由顶部边缘下拉  - 切换全屏（默认）Two fingers pulled down from the top edge - toggle full screen
+
+三指向上 - 19访达（映射）Three fingers up - finder
+三指向下 - 9最小化（映射）Three fingers down - minimized
+三指向左 - 11后退（映射）Three fingers left - back
+三指向右 - 12前进（映射）Three fingers right - forward
+
+四指单点 - 4调度中心（默认）Four fingers point - Misson control
+四指重按 - 20强制退出（映射）Four fingers heavy press - forced exit
+四指向上 - 1应用切换（映射）Four fingers up - application switch
+四指向下 - 2关闭应用 （映射）Four fingers down - close application
+四指向左 - 6左侧空间/全屏应用程序切换（映射）Four fingers left - left space
+四指向右 - 7右侧空间/全屏应用切换（映射）Four fingers righ - right space
+
+五指单点 - 仪表盘（默认）Five fingers point - dashboard 
+五指重按 - 15显示属性（映射）Five fingers heavy press - attributes
+五指捏合 - 3启动台（映射）（需在键盘快捷键那再手动映射，本身快捷键为无，点修改，然后作对应手势，如果识别有问题，可按crtl+alt+shift+L）Five-finger pinch - launchpad
