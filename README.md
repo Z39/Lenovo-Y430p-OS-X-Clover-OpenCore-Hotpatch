@@ -1,4 +1,4 @@
-# 联想Y430P安装macOS Mojave & High Sierra 使用说明
+# 联想Y430P安装macOS Catalina & macOS Mojave & High Sierra 使用说明
 
 让你的Y430P笔记本吃上黑苹果
 
@@ -17,7 +17,7 @@
  ![截图](Screen.JPG)   
 ## 支持列表
 
-* 支持10.13.x 和 10.14。
+* 支持10.13.x 和 10.14,10.15
 * ACPI补丁修复使用hotpatch方式，相关文件位于 `/CLOVER/ACPI/patched` 。
 * 远景论坛ID：39军小兵张 [Link](http://i.pcbeta.com/space-uid-4472739.html)
 * 安装视频教程及效果展示：[Link](https://space.bilibili.com/414418614/video)

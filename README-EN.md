@@ -1,4 +1,4 @@
-# Lenovo IdeaPad Y430P NoteBook for macOS Mojave & High Sierra
+# Lenovo IdeaPad Y430P NoteBook for macOS Catalina & macOS Mojave & High Sierra
 
 Hackintosh your Y430P Notebook
 
@@ -16,7 +16,7 @@ Hackintosh your Y430P Notebook
 ![Screen](Screen.JPG)  
 ## Features
 
-* Support 10.13.x and 10.14.x
+* Support 10.13.x and 10.14.x 10.15.x
 * ACPI fixes use hotpatch; related files are located in `/CLOVER/ACPI/patched`.## Releases
 
 ## Releases
