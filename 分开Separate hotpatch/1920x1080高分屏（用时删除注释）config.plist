@@ -203,6 +203,34 @@
 					SERBVQ==
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Change LID0._PRW to LID0.XPRW</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					CF9QUlc=
+					</data>
+					<key>Replace</key>
+					<data>
+					CFhQUlc=
+					</data>
+				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>Change WMMX to WMMZ (remove WMMX method)</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					V01NWAM=
+					</data>
+					<key>Replace</key>
+					<data>
+					V01NWgM=
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
