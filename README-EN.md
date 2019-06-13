@@ -1,4 +1,4 @@
-# Lenovo IdeaPad Y430P NoteBook for macOS Catalina & macOS Mojave & High Sierra
+# Lenovo IdeaPad Y430P NoteBook for macOS Catalina 10.15& macOS Mojave 10.14& High Sierra 10.13
 
 Hackintosh your Y430P Notebook
 
@@ -16,7 +16,7 @@ Hackintosh your Y430P Notebook
 ![Screen](Screen.JPG)  
 ## Features
 
-* Support 10.13.x and 10.14.x 10.15.x
+* Support macOS Catalina 10.15& macOS Mojave 10.14& High Sierra 10.13
 * ACPI fixes use hotpatch; related files are located in `/CLOVER/ACPI/patched`.## Releases
 
 ## Releases
@@ -25,20 +25,21 @@ The latest version can be downloaded on the[release page](https://github.com/Z39
 
 
 ## What Works
-* Graphics with full acceleration QE/CI (using Intel GPU only) + HDMI Video
-* Audio using AppleALC or VoodooHDA.kext(if you use VoodooHDA,pls remember let your Laptop sleep once and then wake it,HDMI sound output will work properly)
-* Ethernet (LAN)
-* WiFi / Bluetooth (after replacing the Intel card (incompatible) with a compatible one like Broadcom BCM4352 for example
-* Sleep (also sleep on Lid Close)
-* Brightness,Support use FN+Arrows﻿
-* Battery
-* Keyboard / Touchpad
-* CPU Power Management
-* Web-Cam
-* All USB ports
-* App Store/iCloud/iMessage/Facetime
-* TRIM
-* SIP (0ff)
+- [x] Graphics with full acceleration QE/CI (using Intel GPU only) + HDMI Video
+- [x] Audio using AppleALC or VoodooHDA.kext(if you use VoodooHDA,pls remember let your Laptop sleep once and then wake it,HDMI sound output will work properly)
+- [x]  Ethernet (LAN)
+- [x]  WiFi / Bluetooth (after replacing the Intel card (incompatible) with a compatible one like Broadcom BCM4352 for example
+- [x]  Sleep (also sleep on Lid Close)
+- [x]  Brightness,Support use FN+Arrows﻿
+- [x]  Battery
+- [x]  Keyboard / Touchpad
+- [x]  CPU Power Management
+- [x]  Web-Cam
+- [x]  All USB ports
+- [x]  App Store/iCloud/iMessage/Facetime
+- [x]  TRIM
+- [x]  SIP (0ff)
+
 
 
 ## Problems
