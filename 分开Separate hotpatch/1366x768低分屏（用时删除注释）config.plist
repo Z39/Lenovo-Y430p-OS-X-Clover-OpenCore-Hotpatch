@@ -231,6 +231,20 @@
 					V01NWgM=
 					</data>
 				</dict>
+				<dict>
+					<key>Comment</key>
+					<string>change EC0 to EC</string>
+					<key>Disabled</key>
+					<false/>
+					<key>Find</key>
+					<data>
+					RUMwXw==
+					</data>
+					<key>Replace</key>
+					<data>
+					RUNfXw==
+					</data>
+				</dict>
 			</array>
 		</dict>
 		<key>DropTables</key>
@@ -513,6 +527,22 @@
 				<key>Replace</key>
 				<data>
 				igKEwOtC
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>AppleAlc wake patch</string>
+				<key>Disabled</key>
+				<false/>
+				<key>Find</key>
+				<data>
+				Y29tLmFwcGxlAF9fa2VybmVsX18A
+				</data>
+				<key>MatchOS</key>
+				<string>10.15.x</string>
+				<key>Replace</key>
+				<data>
+				bm90LmFwcGxlAF9fa2VybmVsX18A
 				</data>
 			</dict>
 		</array>

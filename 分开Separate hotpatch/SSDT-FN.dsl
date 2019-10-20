@@ -3,11 +3,11 @@
 // Keyboard/Trackpad
 DefinitionBlock ("", "SSDT", 2, "Y430P", "FN", 0x00000000)
 {
-    External (_SB.PCI0.LPCB.EC0, DeviceObj)    // (from opcode)
+    External (_SB.PCI0.LPCB.EC, DeviceObj)    // (from opcode)
     External (_SB.PCI0.LPCB.PS2K, DeviceObj)    // (from opcode)
   
 
-    Scope (_SB.PCI0.LPCB.EC0)
+    Scope (_SB.PCI0.LPCB.EC)
     {
         // _Q11 called on brightness down key
         Method (_Q11, 0, NotSerialized)  // _Qxx: EC Query
