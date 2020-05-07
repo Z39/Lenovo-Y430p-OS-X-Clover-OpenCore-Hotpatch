@@ -124,7 +124,7 @@
 				<key>Comment</key>
 				<string></string>
 				<key>Enabled</key>
-				<false/>
+				<true/>
 				<key>Path</key>
 				<string>SSDT-UIAC.aml</string>
 			</dict>
@@ -476,8 +476,6 @@
 			<dict>
 				<key>AAPL,ig-platform-id</key>
 				<data>BgAmCg==</data>
-				<key>AAPL00,override-no-edid</key>
-				<data>AP///////wAGrz0UAAAAAAAXAQSVHxF4Arv1lFVUkCcjUFQAAAABAQEBAQEBAQEBAQEBAQEBsDaASnE4NEAwIDUANa0QAAAYAAAADwAAAAAAAAAAAAAAAAAgAAAA/gBBVU8KICAgICAgICAgAAAA/gBCMTQwSFROMDEuNCAKAOY=</data>
 				<key>device-id</key>
 				<data>EgQAAA==</data>
 				<key>device_type</key>

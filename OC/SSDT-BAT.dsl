@@ -47,7 +47,6 @@ DefinitionBlock("", "SSDT", 2, "Y410P", "BAT", 0)
 
         
     External(_SB.PCI0.LPCB.EC, DeviceObj)
-    External (ERBD, FieldUnitObj)
     
     Scope (_SB.PCI0.LPCB.EC)
     {
@@ -74,7 +73,7 @@ DefinitionBlock("", "SSDT", 2, "Y410P", "BAT", 0)
         }
 
         External(FAMX, MutexObj)
-        
+        External (ERBD, FieldUnitObj)
         // FANG and FANW are renamed to XANG and XANW
         // calls to them will land here
         Method (FANG, 1, NotSerialized)

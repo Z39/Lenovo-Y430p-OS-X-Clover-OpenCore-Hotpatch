@@ -23,16 +23,16 @@ DefinitionBlock("", "SSDT", 2, "Y410P", "_PNLF", 0)
     External(RMCF.GRAN, IntObj)
     External(RMCF.FBTP, IntObj)
 
-    External(_SB.PCI0.IGPU, DeviceObj)
+    External(_SB.PCI0.GFX0, DeviceObj)
         
 
-    Scope(_SB.PCI0.IGPU)
+    Scope(_SB.PCI0.GFX0)
     {
         OperationRegion(RMP3, PCI_Config, 0, 0x14)
     }
 
     // For backlight control
-    Device(_SB.PCI0.IGPU.PNLF)
+    Device(_SB.PCI0.GFX0.PNLF)
     {
         Name(_ADR, Zero)
         Name(_HID, EisaId ("APP0002"))
