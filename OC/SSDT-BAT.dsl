@@ -12,7 +12,7 @@ DefinitionBlock("", "SSDT", 2, "Y410P", "BAT", 0)
     })
     
     External (_SB.PCI0.LPCB.ECOK, MethodObj)
-    External (_SB.PCI0.LPCB.EC.ENDD, FieldUnitObj)
+    External (_SB.PCI0.LPCB.EC0.ENDD, FieldUnitObj)
     External (_TZ.THLD, UnknownObj)
     External (_TZ.TZ00.PTMP, UnknownObj)
     // TMP is renamed to XTMP
@@ -23,9 +23,9 @@ DefinitionBlock("", "SSDT", 2, "Y410P", "BAT", 0)
         {
             If (\_SB.PCI0.LPCB.ECOK ())
             {
-                Store (Zero, \_SB.PCI0.LPCB.EC.ENI0)
-                Store (0x84, \_SB.PCI0.LPCB.EC.ENI1)
-                Store (\_SB.PCI0.LPCB.EC.ENDD, Local0)
+                Store (Zero, \_SB.PCI0.LPCB.EC0.ENI0)
+                Store (0x84, \_SB.PCI0.LPCB.EC0.ENI1)
+                Store (\_SB.PCI0.LPCB.EC0.ENDD, Local0)
             }
             Else
             {
@@ -46,9 +46,10 @@ DefinitionBlock("", "SSDT", 2, "Y410P", "BAT", 0)
 }
 
         
-    External(_SB.PCI0.LPCB.EC, DeviceObj)
+    External(_SB.PCI0.LPCB.EC0, DeviceObj)
+    External (ERBD, FieldUnitObj)
     
-    Scope (_SB.PCI0.LPCB.EC)
+    Scope (_SB.PCI0.LPCB.EC0)
     {
         // This is an override for battery methods that access EC fields
         // larger than 8-bit.
@@ -73,7 +74,7 @@ DefinitionBlock("", "SSDT", 2, "Y410P", "BAT", 0)
         }
 
         External(FAMX, MutexObj)
-        External (ERBD, FieldUnitObj)
+        
         // FANG and FANW are renamed to XANG and XANW
         // calls to them will land here
         Method (FANG, 1, NotSerialized)
