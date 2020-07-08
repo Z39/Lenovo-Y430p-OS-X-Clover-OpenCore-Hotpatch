@@ -1,4 +1,4 @@
-# 联想Y430P安装macOS Catalina 10.15& macOS Mojave 10.14& High Sierra 10.13 使用说明
+# 联想Y430P安装macOS Big Sur 11.0 &macOS Catalina 10.15& macOS Mojave 10.14& High Sierra 10.13 使用说明
 
 让你的Y430P笔记本吃上黑苹果
 
@@ -15,9 +15,10 @@
 * Bluetooth：BCM20702 (4.0)  (原装无解，更换)              
 * BIOS Version：3.66                   
  ![截图](Screen.JPG)   
+ ![截图](Screen1.JPG)   
 ## 支持列表
 
-* 支持macOS Catalina 10.15& macOS Mojave 10.14& High Sierra 10.13
+* 支持macOS Big Sur 11.0 &macOS Catalina 10.15& macOS Mojave 10.14& High Sierra 10.13
 * ACPI补丁修复使用hotpatch方式，相关文件位于 `/CLOVER/ACPI/patched` 。
 * 远景论坛ID：39军小兵张 [Link](http://i.pcbeta.com/space-uid-4472739.html)
 * 安装视频教程及效果展示：[Link](https://space.bilibili.com/414418614/video)
